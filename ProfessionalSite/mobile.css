@@ -1,0 +1,105 @@
+@media (max-width: 537px) {
+
+  /****************************
+  ***********GENERAL***********
+  ****************************/
+
+  * {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+  }
+
+  body {
+    background-color: #a5b7b4;
+  }
+
+  header {
+    width: 100%;
+    background-color: #839e97;
+    position: fixed;
+    z-index: 1;
+    border-top: solid 10px #a5b7b4;
+    height: 10%;
+  }
+
+  /****************************
+  ********NAVIGATION***********
+  ****************************/
+  nav ul {
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: #839e97;
+  }
+
+  nav {
+    background-color: #839e97;
+    height: 100%;
+  }
+
+  nav ul li {
+    list-style: none;
+    float: left;
+    margin-right: 20px;
+    margin-top: 10px;
+    background-color: #839e97;
+  }
+
+  nav ul li a {
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+  }
+
+  .mobilenav {
+    height: 300px;
+    width: 100%;
+  }
+
+  .mobilebutton {
+    width: 30px;
+    font-size: 30px;
+    position: absolute;
+    top: 0px;
+    left: 3px;
+    z-index: 2;
+  }
+
+
+  /****************************
+  ***********CONTENT***********
+  ****************************/
+
+  .container {
+    margin: 5%;
+    height: 80%;
+    width: 90%;
+    padding-top: 25%;
+  }
+  .container img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 15px;
+  }
+
+  .maincontent {
+    margin-left: 25%;
+    font-family: 'Raleway', sans-serif;
+    border: #57a581;
+    background-color: #688e87;
+    border-radius: 5px;
+    width: 50%;
+    text-align: center;
+  }
+
+  h1, h2 {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 300;
+    text-align: center;
+  }
+
+
+  }

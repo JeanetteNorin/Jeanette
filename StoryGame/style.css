@@ -1,0 +1,123 @@
+* {
+  margin: 0px;
+  overflow: hidden;
+}
+
+header, footer {
+  background-color: #282828;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  color: white;
+}
+
+h1, h2 {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 300;
+}
+
+h2, p, li {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 300;
+}
+
+header {
+  height: 100px;
+}
+
+header h1 {
+  padding: 2%;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 300;
+  padding: 2%;
+}
+
+h2 {
+  padding: 10px 10px 10px 0px;
+  margin: 10px 10px 10px 0px;
+  color: white;
+}
+
+.maincontent p {
+  color: white;
+  margin: 10px 10px 10px 0px;
+}
+
+.maincontent {
+  background-color: black;
+  width: 200px;
+  opacity: 0.8;
+  padding: 10px;
+  display: none;
+  margin: 20px 20% 0px 20%;
+  padding: 5px 10% 15px 10%;
+}
+
+ul li a {
+  color: white;
+  text-decoration: none;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li a:hover {
+  color: gray;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+#page2 {
+  background-repeat: repeat-x;
+  background-image: url(creepypope.jpg);
+  background-color: black;
+  background-size: 500px;
+}
+
+#page3 {
+  background-image: url(background.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#page4 {
+  background-image: url(axeimage.jpg);
+  background-repeat: no-repeat;
+  background-color: black;
+  width: 100%;
+  background-size: 1800px;
+}
+
+#page5 {
+  background-image: url(fallen.jpg);
+  background-repeat: no-repeat;
+  background-color: black;
+  width: 100%;
+  background-size: 1800px;
+}
+
+#index {
+  background-image: url(background.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.container {
+  padding: 10%;
+  height: 700px;
+}
+
+.hiddenimage {
+  background-image: url(creepygirl.jpg);
+  display: none;
+  height: 300px;
+}

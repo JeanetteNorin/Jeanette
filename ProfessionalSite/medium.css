@@ -1,0 +1,100 @@
+@media (min-width: 401px) {
+
+  /****************************
+  ***********GENERAL***********
+  ****************************/
+
+  * {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+  }
+
+  body {
+    background-color: #a5b7b4;
+  }
+
+  header {
+    box-sizing: border-box;
+    width: 100%;
+    background-color: #839e97;
+    position: fixed;
+    z-index: 1;
+    border-top: solid 10px #a5b7b4;
+    height: 5%;
+    padding: 0 15% 0 15%;
+    margin: 5% 2px 0 0;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+  }
+
+  /****************************
+  ********NAVIGATION***********
+  ****************************/
+  nav {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  nav ul li {
+    list-style: none;
+    float: left;
+    padding: 5px;
+  }
+
+  nav ul li a {
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 12px;
+  }
+
+
+  .mobilebutton {
+    display: none;
+  }
+
+
+  /****************************
+  ***********CONTENT***********
+  ****************************/
+
+  .container {
+    margin: 0;
+    padding-top: 20%;
+  }
+  .container img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 15px;
+  }
+
+  .maincontent {
+    margin-left: 25%;
+    font-family: 'Raleway', sans-serif;
+    border: #57a581;
+    background-color: #688e87;
+    border-radius: 5px;
+    width: 50%;
+    text-align: center;
+  }
+
+  h1, h2 {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 300;
+    text-align: center;
+  }
+
+
+  }
